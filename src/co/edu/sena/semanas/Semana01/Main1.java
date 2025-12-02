@@ -1,9 +1,11 @@
-package Actividad3_Primera_Clase_Simple;
+package co.edu.sena.semanas.Semana01;
+public class Main1 {
 
-public class Main_clases {
     public static void main(String[] args) {
+
+        //      PAQUETES (CLASES)
         System.out.println("=== Agencia Destinos Mágicos ===");
-        System.out.println("Lista de Paquetes Turísticos\n");
+        System.out.println("Paquetes Turísticos (Usando TravelPackage_clases)\n");
 
         TravelPackage_clases paquete1 = new TravelPackage_clases("Cartagena Todo Incluido", 5, 2500000);
         TravelPackage_clases paquete2 = new TravelPackage_clases("San Andrés Islas", 4, 1800000);
@@ -12,13 +14,10 @@ public class Main_clases {
         paquete1.mostrarInfo();
         paquete2.mostrarInfo();
         paquete3.mostrarInfo();
-    }
 
-    
-        public class Main_objetos {
-            public static void main(String[] args) {
-        System.out.println("=== Agencia Destinos Mágicos ===");
-        System.out.println("Lista de Paquetes Turísticos\n");
+        //      PAQUETES (OBJETOS)
+        System.out.println("\n=== Más Paquetes Turísticos ===");
+        System.out.println("Paquetes (Usando TravelPackage_objetos)\n");
 
         TravelPackage_objetos p1 = new TravelPackage_objetos("Aventura en Cartagena", "Cartagena", 5, 2500000);
         TravelPackage_objetos p2 = new TravelPackage_objetos("Descubre San Andrés", "San Andrés Islas", 4, 1800000);
@@ -33,3 +32,5 @@ public class Main_clases {
         p5.mostrarInfo();
     }
 }
+
+

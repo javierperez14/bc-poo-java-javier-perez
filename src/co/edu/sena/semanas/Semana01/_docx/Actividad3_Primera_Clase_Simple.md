@@ -14,7 +14,7 @@ Diseñar una clase que modele la información de un paquete turístico, mostrand
 ###  Descripción del ejercicio
 
 La clase `TravelPackage_objetos` define los atributos:
-- `destination` (Destino)
+- `destination` (co.edu.sena.semanas.Semana2.Destino)
 - `duration` (Duración en días)
 - `price` (Precio del paquete)
 
@@ -22,7 +22,7 @@ Cuenta con:
 - Un **constructor** para inicializar los atributos.
 - Un **método `showInfo()`** que muestra los datos en consola.
 
-El programa principal (`Main_objetos.java`) crea tres paquetes y muestra su información.
+El programa principal (`co.edu.sena.semanas.Semana01.Main_objetos.java`) crea tres paquetes y muestra su información.
 
 ---
 
@@ -32,15 +32,15 @@ El programa principal (`Main_objetos.java`) crea tres paquetes y muestra su info
 Lista de Paquetes Turísticos
 
 --Paquete: Aventura en Cartagena
---Destino: Cartagena
+--co.edu.sena.semanas.Semana2.Destino: Cartagena
 --Duración: 5 días
 --Valor total: $2500000
 --Paquete: Descubre San Andrés
---Destino: San Andrés Islas
+--co.edu.sena.semanas.Semana2.Destino: San Andrés Islas
 --Duración: 4 días
 --Valor total: $1800000
 --Paquete: Vacaciones en Cancún
---Destino: Cancún - México
+--co.edu.sena.semanas.Semana2.Destino: Cancún - México
 --Duración: 7 días
 --Valor total: $4500000
 ```

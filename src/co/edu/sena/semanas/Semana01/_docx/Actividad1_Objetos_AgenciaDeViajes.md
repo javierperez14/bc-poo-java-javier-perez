@@ -10,7 +10,7 @@
 
 ---
 
-### 2. Cliente
+### 2. co.edu.sena.semanas.Semana2.Cliente
 - **¿Qué es?**  
   Persona que contrata o reserva los servicios ofrecidos por la agencia.
 - **Atributos:**  
@@ -30,7 +30,7 @@
 
 ---
 
-### 4. Reserva
+### 4. co.edu.sena.semanas.Semana2.Reserva
 - **¿Qué es?**  
   Registro de la compra o solicitud de un paquete turístico por parte del cliente.
 - **Atributos:**  

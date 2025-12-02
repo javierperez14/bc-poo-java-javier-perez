@@ -41,7 +41,7 @@ double precio = 2500000;
 
 
 void mostrarPaquete(String d, int du, double p) {
-    System.out.println("Destino: " + d);
+    System.out.println("co.edu.sena.semanas.Semana2.Destino: " + d);
     System.out.println("Duración: " + du + " días");
     System.out.println("Precio: $" + p);
 }
@@ -57,27 +57,27 @@ En este paradigma, los datos y las funciones se agrupan dentro de una **clase**,
 Cada paquete turístico es un objeto con sus propios atributos y comportamientos.
 
 ```java
-public class PaqueteTuristico {
+public class co.edu.sena.semanas.Semana3.PaqueteTuristico {
     String destino;
     int duracion;
     double precio;
 
-    public PaqueteTuristico(String destino, int duracion, double precio) {
+    public co.edu.sena.semanas.Semana3.PaqueteTuristico(String destino, int duracion, double precio) {
         this.destino = destino;
         this.duracion = duracion;
         this.precio = precio;
     }
 
     public void mostrarInfo() {
-        System.out.println("Destino: " + destino);
+        System.out.println("co.edu.sena.semanas.Semana2.Destino: " + destino);
         System.out.println("Duración: " + duracion + " días");
         System.out.println("Precio: $" + precio);
     }
 }
 
-public class Main_objetos {
+public class co.edu.sena.semanas.Semana01.Main_objetos {
     public static void main(String[] args) {
-        PaqueteTuristico paquete1 = new PaqueteTuristico("Cartagena", 5, 2500000);
+        co.edu.sena.semanas.Semana3.PaqueteTuristico paquete1 = new co.edu.sena.semanas.Semana3.PaqueteTuristico("Cartagena", 5, 2500000);
         paquete1.mostrarInfo();
     }
 }

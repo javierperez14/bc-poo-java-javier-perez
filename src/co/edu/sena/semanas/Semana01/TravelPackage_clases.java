@@ -1,4 +1,4 @@
-package Actividad3_Primera_Clase_Simple;
+package co.edu.sena.semanas.Semana01;
 
 public class TravelPackage_clases {
     String destino;
@@ -12,7 +12,7 @@ public class TravelPackage_clases {
     }
 
     public void mostrarInfo() {
-        System.out.println("Destino: " + destino);
+        System.out.println("co.edu.sena.semanas.Semana2.Destino: " + destino);
         System.out.println("Duración: " + duracion + " días");
         System.out.println("Precio: $" + precio);
         System.out.println("---------------------------");
