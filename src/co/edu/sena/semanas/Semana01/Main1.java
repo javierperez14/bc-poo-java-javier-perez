@@ -13,13 +13,10 @@ public class Main_clases {
         paquete2.mostrarInfo();
         paquete3.mostrarInfo();
     }
-}
 
-
-package Actividad4_Multiples_Objetos;
-
-public class Main_objetos {
-    public static void main(String[] args) {
+    
+        public class Main_objetos {
+            public static void main(String[] args) {
         System.out.println("=== Agencia Destinos Mágicos ===");
         System.out.println("Lista de Paquetes Turísticos\n");
 
