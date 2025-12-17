@@ -46,15 +46,33 @@ El proyecto está dividido en módulos semanales, donde cada carpeta contiene ac
 - Implementaciones polimórficas
 - **Ejercicio completo:** Sistema de reservas / Destinos mágicos
 
-### 📁 Semana-07
-**Todavia no lo realizo**
 
-### 📁 Semana-08
-**Todavia no lo realizo**
+### 📁 Semana-07  
+**Excepciones y manejo de errores:**  
+- Validaciones con `IllegalArgumentException`  
+- Creación de excepciones personalizadas  
+- Uso de `try-catch-finally`  
+- Manejo de errores de negocio  
+- **Ejercicio completo:** Sistema de reservas / Destinos Mágicos  
 
-### 📁 Semana-09
-**Todavia no lo realizo**
----
+
+### 📁 Semana-08  
+**Colecciones y programación genérica:**  
+- Uso de `ArrayList<E>` con Generics  
+- Implementación de `HashMap<K,V>` para búsquedas O(1)  
+- Filtrado de datos y estadísticas  
+- CRUD completo con colecciones  
+  
+
+### 📁 Proyecto Final – Semana-09  
+**Integración completa de POO en Java:**  
+- Encapsulación, herencia y polimorfismo
+- Abstracción con clases abstractas e interfaces  
+- Excepciones personalizadas  
+- Colecciones (`ArrayList`, `HashMap`)  
+- Menú interactivo y CRUD avanzado  
+- Documentación y diagrama UML  
+- **Proyecto completo:** Sistema de gestión – Agencia de Viajes “Destinos Mágicos” 
 
 ## 🛠️ Tecnologías Utilizadas
 
